@@ -25,5 +25,5 @@ function login() {
     passwordLoginChk.style.color = "green";
   }
   localStorage.setItem("loginStatus", "true");
-  window.location.replace("/exam.html");
+  window.location.replace("/Examintion-System/exam.html");
 }
