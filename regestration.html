@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Exam - Registration</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="reg-sucess"></h1>
+      <div class="reg-box">
+        <h2>Registration</h2>
+        <form action="">
+          <div><label for="user-name">First Name :</label><span id="fn-chk"></span></div>
+          <input type="text" name="user-name" id="reg-first-name" />
+          <div><label for="user-name">Last Name :</label><span id="ln-chk"></span></div>
+          <input type="text" name="user-name" id="reg-last-name" />
+          <div><label for="user-name">Email :</label><span id="email-chk"></span></div>
+          <input type="text" name="user-name" id="reg-email" />
+          <div><label for="user-password">Password :</label><span id="pass-chk"></span></div>
+          <input type="password" name="user-password" id="reg-user-password" />
+          <div><label for="user-password">Re Password :</label><span id="pass-chk2"></span></div>
+          <input type="password" name="user-password" id="reg-user-password2" />
+          <a href="/index.html">Login</a>
+        </form>
+        <button type="submit" onclick="submit()">Register</button>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
