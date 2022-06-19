@@ -70,6 +70,6 @@ function submit() {
     regSucess.innerHTML += " .";
   }, 500);
   setInterval(() => {
-    window.location.replace("index.html");
+    window.location.replace("/Examintion-System/index.html");
   }, 2500);
 }
