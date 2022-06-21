@@ -144,3 +144,29 @@ i{
     color: white;
     cursor: pointer;
 }
+@media (max-width: 500px) {
+
+    .loading{
+        width: 95vw !important;
+    }
+    .timer{
+        font-size: 1rem !important;
+    }
+    h1{
+        font-size: 1.5rem !important;
+    }
+    .questions-box{
+        width: 100% !important;
+        margin-bottom: -65px !important;
+    }
+    .question{
+        margin: 0 2rem !important;
+    }
+    .exam{
+        display: block !important;
+    }
+    .mark-container{
+        width: 100% !important;
+        height: auto !important;
+    }
+}
