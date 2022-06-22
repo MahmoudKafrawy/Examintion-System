@@ -64,6 +64,10 @@ h2::after {
     display: none !important;
 }
 
+#reg-sucess{
+    font-size: 1.5rem;
+}
+
 form {
     padding: 25px;
 }

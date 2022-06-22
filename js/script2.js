@@ -7,7 +7,7 @@ const passwordLoginChk = document.getElementById("password-login-chk");
 localStorage.setItem("loginStatus", "false");
 
 function login() {
-  if (userEmail.value != localStorage.getItem("email")) {
+  if (userEmail.value.toLowerCase() != localStorage.getItem("email").toLowerCase()) {
     emailLoginChk.innerHTML = "Wrong Email";
     emailLoginChk.style.color = "red";
     return;

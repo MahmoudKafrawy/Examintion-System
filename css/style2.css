@@ -161,6 +161,10 @@ i{
     }
     .question{
         margin: 0 2rem !important;
+        height: 20% !important;
+    }
+    .answers-box{
+        height: auto !important;
     }
     .exam{
         display: block !important;
