@@ -167,7 +167,8 @@ i{
         height: auto !important;
     }
     .exam{
-        display: block !important;
+        display: flex !important;
+        flex-direction: column !important;
     }
     .mark-container{
         width: 100% !important;
